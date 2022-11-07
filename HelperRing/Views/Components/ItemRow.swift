@@ -39,7 +39,7 @@ struct ItemRow: View {
                 Text(name ?? "Unknown")
                     .font(.title3)
                     .bold()
-                Text(description ?? "No description available yet.")
+                Text(description ?? "No description available.")
                     .font(.caption)
                     .multilineTextAlignment(.leading)
                     .lineLimit(3)
