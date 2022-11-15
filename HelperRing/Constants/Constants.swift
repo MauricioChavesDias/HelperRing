@@ -6,15 +6,13 @@
 //
 
 import Foundation
-
+import UIKit
 
 struct Constants {
-
-    struct cardTitles {
-        static var bosses: String {
-            return "Bosses"
-        }
     
+    static func isThereAnyPhotoInTheAssets(imageName: String) -> Bool {
+        guard UIImage(named: imageName) != nil else { return false }
+        return true
     }
 
 }
